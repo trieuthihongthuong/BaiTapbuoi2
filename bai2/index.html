@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <script src="bt2.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div  class="container">
+    <form id ="point" class="point" >
+        <h1> BANG DIEM CỦA EM</h1>
+        <label> Semester 1 :</label>
+        <input id="s1" type="number">
+        <br>
+        <br>
+        <label>Semester 2 :</label>
+        <input id="s2" type="number">
+        <br>
+        <br>
+        <label>Year :</label>
+        <select name="" id="year">
+            <option value=1>1</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+        </select>
+        <br>
+        <br>
+        <label> Sumarise <label id="sumary"></label> </label>
+        <span id="summary"></span>
+        <h3 id="dat"></h3>
+        <br>
+        <br>
+    </form>
+    <button onclick="KTra()">OK</button>
+    <button onclick="Trove()">Cancel</button>
+    <br>
+    <br>
+</div>
+<style>
+    .container{
+        border: 1.5px solid rgb(19, 18, 18);;
+    }
+    .container .point h1 {
+        display: block;
+        color: blue;
+        text-align: center;
+    }
+    .container .point label {
+        font-size: 20px;
+        margin-left: 10px;
+        
+    }
+    .container button{
+        margin-left:  80px;
+        font-size: 20px;
+    }
+</style>
+   
+</body>
+</html>
